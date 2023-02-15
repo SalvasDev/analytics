@@ -48,11 +48,11 @@ const Header = (): JSX.Element => {
        {/* Menu mobile */}
         <nav className="showMenuMobile " id='showMenuMobile' onClick= { handleBurger } >
 
-          <a href='/' className="animate__animated animate__slideInDown">Inicio</a>
-          <a href="#"className="animate__animated animate__slideInDown">Servicios</a>
-          <a href="#"className="animate__animated animate__slideInDown">Proyectos</a>
-          <a href="#"className="animate__animated animate__slideInDown">Nosotros</a>
-          <a href="#"className="animate__animated animate__slideInDown">Contacto</a>
+          <a href='/' className="animate__animated animate__slideInDown">Home</a>
+          <a href="#"className="animate__animated animate__slideInDown">Products</a>
+          <a href="#"className="animate__animated animate__slideInDown">Pricing</a>
+          <a href="#"className="animate__animated animate__slideInDown">FAQ</a>
+          <a href="#"className="animate__animated animate__slideInDown">Blog</a>
         </nav>
               
 

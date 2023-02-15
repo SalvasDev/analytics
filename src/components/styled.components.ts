@@ -145,11 +145,7 @@ export const FooterSection = styled.div`
       @media screen  and (max-width: 490px) {
         bottom: 115%;        
        }
-
-
-     
   
-
   }
 
   &::after {
