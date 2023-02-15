@@ -117,7 +117,7 @@ export const FooterSection = styled.div`
   height: auto;  
   padding-bottom: 5rem;
   position: relative;
-  z-index: -2;
+  z-index: 1;
 
   &::before {
         position: absolute;
