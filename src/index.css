@@ -628,10 +628,13 @@ img {
       margin-right: auto;
       text-align: center;
     }
-
     
   .hero__image {
     display: none;
+  }
+
+  .hero__symbol-back2 {
+    top: 74rem
   }
 
   .hero__image-complete {
@@ -695,6 +698,9 @@ img {
     width: 10rem;
   }
 
+ .hero__symbol-back2 {
+   top: 80rem
+ }
 
 } 
 
@@ -714,8 +720,19 @@ img {
     gap: 6rem;
   }
 
- 
+  .hero__group {
+    margin-top: 4rem;
+  }
+
+ .hero__symbol-back2 {
+   top: 86rem
+ }
+
 
 }
 
-
+@media screen and (max-width: 540px) {
+  .hero__symbol-back2 {
+      top: 92rem
+    }
+}
