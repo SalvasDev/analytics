@@ -725,13 +725,13 @@ img {
   }
 
  .hero__symbol-back2 {
-   top: 84rem
+   top: 86rem
  }
 
 }
 
 @media screen and (max-width: 375px) {
   .hero__symbol-back2 {
-      top: 86rem
+      top: 90rem
     }
 }
