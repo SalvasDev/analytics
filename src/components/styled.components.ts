@@ -46,9 +46,29 @@ export const HeroSection = styled.div`
 }
 
 @media screen and (max-width: 768px) {  
-  height: 115rem;
+  height: 110rem;
 }
 
+
+  &::after {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -30rem;
+    content: '';        
+    background: var(--dark-blue);
+    transform-origin: top right;
+    transform: skewY(-7deg);
+    z-index: -1;
+
+    @media screen and (max-width: 1280px) {  
+      top: -2rem;
+    }
+
+    @media screen and (max-width: 768px) {  
+      top: 45rem;
+    }
+  }
 
   &::before {
     position: absolute;
@@ -71,25 +91,7 @@ export const HeroSection = styled.div`
 
  }
 
-  &::after {
-    position: absolute;
-    width: 100%;
-    height:100%;
-    top: -30rem;
-    content: '';        
-    background: var(--dark-blue);
-    transform-origin: top right;
-    transform: skewY(-7deg);
-    z-index: -1;
 
-    @media screen and (max-width: 1280px) {  
-      top: -2rem;
-    }
-
-    @media screen and (max-width: 768px) {  
-      top: 30rem;
-    }
-  }
 `;
 
 
@@ -145,19 +147,19 @@ export const FooterSection = styled.div`
       @media screen  and (max-width: 490px) {
         bottom: 115%;        
        }
-  
-  }
+}
 
   &::after {
         position: absolute;
         width: 100%;
-        height:100%;
+        height: 100%;
         top: -30rem;
         content: '';        
         background: var(--dark-blue);
          transform-origin: top right;
         transform: skewY(-7deg);
         z-index: -2;
+
     }    
 `;
 

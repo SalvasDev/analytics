@@ -53,10 +53,7 @@ const Header = (): JSX.Element => {
           <a href="#"className="animate__animated animate__slideInDown">Pricing</a>
           <a href="#"className="animate__animated animate__slideInDown">FAQ</a>
           <a href="#"className="animate__animated animate__slideInDown">Blog</a>
-        </nav>
-              
-
-        
+        </nav>            
 
       <div className="right__group">
         <button className="button__text">Sign in</button>

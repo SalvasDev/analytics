@@ -682,6 +682,10 @@ img {
     left: 45%;
   }
 
+  .info__right {
+    margin: auto;
+  }
+
   }
 
 
