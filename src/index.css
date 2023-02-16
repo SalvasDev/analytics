@@ -526,14 +526,14 @@ img {
       margin-left: 46%;
     }
 
- .card-item:nth-child(2) {
-   grid-area: area2;
- }
+  .card-item:nth-child(2) {
+    grid-area: area2;
+  }
 
-.card-item:last-child {
-  grid-area: area6;
-  margin-left: -46%;
-}
+  .card-item:last-child {
+    grid-area: area6;
+    margin-left: -46%;
+  }
 
 
 }
@@ -720,8 +720,8 @@ img {
     gap: 6rem;
   }
 
-  .hero__group {
-    margin-top: 0;
+  .hero__title {
+    margin-top: 5rem;
   }
 
  .hero__symbol-back2 {
