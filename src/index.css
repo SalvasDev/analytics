@@ -31,6 +31,7 @@ body {
   font-size: var(--body-font-size);
   overflow: scroll;
   color: var(--secondary-blue);
+  background-color: #F8F9FF;
 }
 
 a {

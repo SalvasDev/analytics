@@ -20,7 +20,6 @@ const Hero = (): JSX.Element => {
           </div>
           <img className="hero__image" src={mainScreen} alt="" />
           <img className="hero__image-complete" src={mainScreenComplete} alt="" />
-
         </div>
       </Wrapper>
     </HeroSection>    
