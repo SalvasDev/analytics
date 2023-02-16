@@ -721,18 +721,17 @@ img {
   }
 
   .hero__group {
-    margin-top: 4rem;
+    margin-top: 0;
   }
 
  .hero__symbol-back2 {
-   top: 86rem
+   top: 84rem
  }
-
 
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 375px) {
   .hero__symbol-back2 {
-      top: 92rem
+      top: 86rem
     }
 }
