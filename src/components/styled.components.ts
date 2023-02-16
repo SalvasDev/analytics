@@ -85,7 +85,7 @@ export const HeroSection = styled.div`
     }
 
     @media screen and (max-width: 768px) {  
-      top: 116rem;
+      top: 117rem;
     }
 
 
