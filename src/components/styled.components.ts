@@ -34,63 +34,24 @@ export const ButtonFill = styled.button<Props>`
 `;
 
 export const HeroSection = styled.div`
-  margin-top: 0;
-  background-color: var(--bg-color);
+  position: relative;
+  margin-top: 0; 
+  background: linear-gradient(-185deg, var(--bg-color) 75%, transparent 15%);
   width: 100%;
-  height: 60rem; 
-  overflow: hidden;    
+  height: auto;
+  padding-bottom: 30rem;
 
-
-@media screen and (max-width: 1280px) {  
-  height: 80rem;
-}
-
-@media screen and (max-width: 768px) {  
-  height: 110rem;
-}
 
 
   &::after {
     position: absolute;
     width: 100%;
-    height:100%;
-    top: -30rem;
+    height: 100%;
+    bottom: -2%;
     content: '';        
-    background: var(--dark-blue);
-    transform-origin: top right;
-    transform: skewY(-7deg);
+    background: linear-gradient(-185deg, var(--pink-color) 75%, transparent 15%);
     z-index: -1;
-
-    @media screen and (max-width: 1280px) {  
-      top: -2rem;
-    }
-
-    @media screen and (max-width: 768px) {  
-      top: 45rem;
-    }
   }
-
-  &::before {
-    position: absolute;
-    width: 100%;
-    height: 2%;
-    top: 56rem;
-    content: '';
-    background: var(--pink-color);
-    transform-origin: top right;
-    transform: skewY(-7deg);   
-
-    @media screen and (max-width: 1280px) {  
-      top: 85rem;
-    }
-
-    @media screen and (max-width: 768px) {  
-      top: 117rem;
-    }
-
-
- }
-
 
 `;
 
@@ -98,13 +59,31 @@ export const HeroSection = styled.div`
 export const Wrapper = styled.div`
   width: min(90%, 118rem);
   margin: auto;
+  margin-top: 0;
 `;
 
 
 export const FeaturesSection = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 20rem;   
+  margin-top: 0;   
+
+  @media screen  and (max-width: 1280px) {
+    margin-top: -8rem;        
+  }
+
+
+  @media screen  and (max-width: 960px) {
+    margin-top: -12rem;        
+  }
+
+
+  @media screen  and (max-width: 768px) {
+    margin-top: -18rem;        
+  }
+
+
+
 `;
 
 export const MainSection = styled.div`
@@ -124,7 +103,7 @@ export const FooterSection = styled.div`
   &::before {
         position: absolute;
         width: 100%;
-        height: 1%;
+        height: 2%;
         bottom: 133%;
         content: '';
         background: var(--pink-color);

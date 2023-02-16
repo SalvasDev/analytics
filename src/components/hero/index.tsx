@@ -12,7 +12,7 @@ const Hero = (): JSX.Element => {
         <Header />
         <div className="hero__group">
           <img className="hero__symbol-back1" src={symbolBack1} alt="Symbol back 1" />
-          <img className="hero__symbol-back2" src={symbolBack2} alt="Symbol back 2" />
+          <img className="hero__symbol-back2" src={symbolBack2} alt="Symbol back 2" />          
           <div className="hero__info">
               <h1 className="hero__title">Monitor your bussines on real-time dashboard</h1>
               <p className="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. </p>
