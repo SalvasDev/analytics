@@ -503,7 +503,7 @@ img {
   .hero__symbol-back2 {
     top: 19rem;
     right: 0;
-    transform: rotate(-7deg);
+    /* transform: rotate(-7deg); */
   }
 
 }
